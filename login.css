@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+body{
+	background: linear-gradient(to right, purple,indigo,purple,violet);
+}
+
+form{
+	background: #fff;
+	text-align: center;
+	height: 60vh;
+	margin: auto;
+	margin-top: 50px;
+	width: 25%;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 3px 10px 59px 1px purple;
+
+	
+}
+.username {
+
+	display: block;
+	position: relative;
+	top: 13px;
+	right: 80px;
+}
+
+.username p{
+	position: relative;
+	margin-right: 76px;
+
+}
+
+.username input{
+		margin-top: 2px;
+		margin-left: 18px;
+		width: 180px;
+		padding: 10px 5px;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+
+	}
+
+	.password{
+		display: block;
+	position: relative;
+	top: 29px;
+	right: 80px;
+	}
+
+/*Hovering the username*/
+
+.password p{
+	position: relative;
+	margin-right: 76px;
+}
+
+
+.password input{
+		
+		margin-top: 2px;
+		margin-left: 18px;
+		width: 180px;
+		padding: 10px 5px;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+
+
+	}
+#request a{
+	text-decoration: none;
+	position: relative;
+	left: 89px;
+	top: 29px;
+	color: indigo;
+}
+
+
+#button{
+		position: relative;
+		top: 50px;
+	}
+
+
+#login {
+
+	background: linear-gradient(to right, purple,indigo,purple,violet);
+	position: relative;
+	width: 50%;
+	left: 45px;
+	top: 45px;
+	border-radius: 6px;
+	padding: 12px 25px;
+}	
+
+#login a{
+	color: white;
+	text-decoration: none;
+}
+#signup{
+	color: grey;
+	position: relative;
+	top: 70px;
+}
+.social-media{
+	position: relative;
+	top: 80px;
+}
+.social-media a{
+	font-size: 36px;
+	padding: 4px 10px;
+	border-radius: 20px;
+}
+.social-media a #fb{
+	background: blue;
+}
